@@ -4,6 +4,7 @@ using System;
 namespace BattleBitExamples;
 
 public class ExampleModuleIntegration : BattleBitModule {
+
     // Per-server configuration
     public ExampleConfiguration ExampleModuleConfig { get; set; }
 

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 namespace BattleBitExamples;
 
 public class ExampleModule : BattleBitModule {
+
     [ModuleReference]
     public dynamic? ExampleModuleIntegration { get; set; }
 

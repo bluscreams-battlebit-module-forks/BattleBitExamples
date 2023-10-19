@@ -3,8 +3,10 @@ using System;
 using System.Threading.Tasks;
 
 namespace BattleBitExamples {
+
     [RequireModule(typeof(ExampleModuleIntegration))]
     public class ExampleModule2 : BattleBitModule {
+
         [ModuleReference]
         public ExampleModuleIntegration ExampleModuleIntegration { get; set; }
 
